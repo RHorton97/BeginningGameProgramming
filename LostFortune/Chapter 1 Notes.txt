@@ -11,3 +11,29 @@ Error Types:
 
 Arithmetic Operators: Order of Operations
 	http://en.cppreference.com/w/cpp/language/operator_precedence
+
+Naming Variables: The Rules
+	- An identifier can contain only numbers, letters, and underscores
+	- An identifier can't start with a number
+	- An identifier can't be a C++ keyword
+
+Combined Assignment Operators
+	Symbol	Example		Equivalent
+	+=		x += 5		x = x + 5
+	-=		x -= 5		x = x - 5
+	*=		x *= 5		x = x * 5
+	/=		x /= 5		x = x / 5
+	%=		x %= 5		x = x % 5
+
+Increment Operator: ++ (adds 1 to a value)
+Decrement Operator: -- (subtracts 1 from a value)
+
+Prefix and suffix increment/decrement operators work differently. A prefix such as ++x will increment x then perform other
+operations when it is included in a larger statement such as ++x * 10. A suffix operator such as x-- will decrement x after
+performing the other operations in a larger statement. Check order of operations for the specific order.
+
+If a variable is assigned or reaches a value greater than the maximum one it can hold it will 'wraparound' to its minimum
+value and vice versa.
+
+A variable can be made constant when it is declared so that it keeps its initial value and cannot be changed, this helps
+to avoid unintentional changes being made to the variable when it is being used by the program.
