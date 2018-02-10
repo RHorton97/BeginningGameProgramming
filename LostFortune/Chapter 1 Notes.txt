@@ -1,3 +1,13 @@
 Chapter 1 Notes
 
 Game To Make: Lost Fortune
+
+Error Types:
+	- Compile errors: Often syntax errors, these errors occur during the compilationprocess of the code
+	- Link errors: These occur during the linking process and indicate that something the program references externally
+	  cannot be found
+	- Run-time errors: These occur when the executable file is being run, they can cause the program to crash abruptly
+	  or act in unexpected ways if the error is a logic error
+
+Arithmetic Operators: Order of Operations
+	http://en.cppreference.com/w/cpp/language/operator_precedence
